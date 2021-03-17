@@ -1,0 +1,7 @@
+<section class="article-content">
+    {{ .Content }}
+
+    {{ if isset .Params "links" }}
+        {{ partial "projects/links" . }}
+    {{ end }}
+</section>

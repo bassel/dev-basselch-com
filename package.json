@@ -1,0 +1,11 @@
+{
+  "name": "dev-basselch-com",
+  "version": "1.0.0",
+  "description": "Dev projects and articles",
+  "private": true,
+  "scripts": {
+    "dev": "hugo server -D -w -v --disableFastRender",
+    "build": "hugo --gc --minify",
+    "start": "hugo --gc"
+  }
+}

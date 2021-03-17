@@ -1,0 +1,19 @@
+{{ with .Params.links }}
+<div id="project-links">
+    <h2>Project Links</h2>
+    <ul>
+        {{ with .web }}
+        <li><a class="block" href="{{ . }}" target="_blank"> Web </a></li>
+        {{ end }} 
+        {{ with .ios }}
+        <li><a class="block" href="{{ . }}" target="_blank"> App Store </a></li>
+        {{ end }} 
+        {{ with .android }}
+        <li><a class="block" href="{{ . }}" target="_blank"> Play Store </a></li>
+        {{ end }} 
+        {{ with .github }}
+        <li><a class="block" href="{{ . }}" target="_blank"> Github </a></li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
