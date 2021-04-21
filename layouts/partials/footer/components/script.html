@@ -4,3 +4,6 @@
 {{- $script := resources.Get "ts/main.ts" | js.Build $opts -}}
 
 <script type="text/javascript" src="{{ $script.RelPermalink }}" defer></script>
+<!-- Cloudflare Web Analytics -->
+<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6f7748c85d8d45a98393596727d9ef4c"}'></script>
+<!-- End Cloudflare Web Analytics -->
