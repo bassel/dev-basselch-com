@@ -65,7 +65,7 @@ params:
     opengraph:
         twitter:
             # Your Twitter username
-            site:
+            site: BasselBC
 
             # Available values: summary, summary_large_image
             card: summary_large_image
@@ -74,7 +74,7 @@ params:
         opengraph:
             enabled: false
             local: false
-            src:
+            src: img/cover.png
 
     colorScheme:
         # Display toggle
