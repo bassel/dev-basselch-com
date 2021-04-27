@@ -99,6 +99,11 @@ menu:
           url: /
           weight: -100
           pre: home
+        - identifier: pw
+          name: Personal Blog
+          url: https://basselch.com
+          weight: -10
+          pre: writing
 
 related:
     includeNewer: true
