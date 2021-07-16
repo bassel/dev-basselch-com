@@ -64,9 +64,6 @@ params:
 
     opengraph:
         twitter:
-            # Your Twitter username
-            site: BasselBC
-
             # Available values: summary, summary_large_image
             card: summary_large_image
 
